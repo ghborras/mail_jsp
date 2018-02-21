@@ -1,0 +1,25 @@
+#contenedor {
+	padding: 30px;
+}
+
+span {
+	margin-right: 5px;
+}
+
+#asunto {
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: bold;
+	color: green;
+}
+
+#busca {
+	margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px)  {
+  	#contenedor{
+  		
+  	}
+	 
+}

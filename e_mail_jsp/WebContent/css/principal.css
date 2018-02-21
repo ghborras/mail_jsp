@@ -1,0 +1,59 @@
+@charset "ISO-8859-1";
+
+body {
+/* 	background-color: black; */
+	
+/* 	background-position: center center; */
+}
+
+/* a { */
+/* 	margin-right: 15px; */
+/* } */
+
+span {
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+img {
+	border-radius: 4px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.navbar-german {
+	background-color: #021b39;
+	margin-bottom: 0px;
+	border: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	padding: 20px;
+	
+}
+
+#log {
+	font-size: 16px;
+	margin-right: 0px;
+}
+
+#reg {
+	font-size: 16px;
+	
+}
+
+#marca{
+	font-size: 35px;
+}
+
+.navbar-header >a {
+	font-size: 35px;
+}
+
+
+#container {
+	width: 100%;
+	margin: auto;	
+}
+
+
+

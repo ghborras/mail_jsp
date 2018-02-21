@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Index-Login</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/principal.css" type="text/css" />
+</head>
+<body>
+
+	<div id="container">
+		 <nav class="navbar navbar-inverse navbar-german">
+			 <div class="container-fluid">
+			 	<div class="navbar-header">
+      				<a class="navbar-brand" href="#"><span id="marca" class="glyphicon glyphicon-envelope"></span>germ@n</a>
+    			</div>
+				<form class="navbar-form navbar-right" action="comprueba_user.jsp" method="post">
+					<button type="submit" class="btn btn-primary btn-md" name="loger"
+						id="registro" value="registro"><span id="reg" class="glyphicon glyphicon-pencil"></span>Registrate</button>
+					<div class="input-group">
+						<input type="text" class="form-control" name="usuario" id="usuario" placeholder="User">
+						 <div class="input-group-btn">
+						 	<button class="btn btn-default" type="button">
+          					 		<i class="glyphicon glyphicon-user"></i>
+         						</button>
+						</div>
+					</div>
+					<div class="input-group">
+						<input type="password" class="form-control" name="password" id="password" placeholder="Password">
+						<div class="input-group-btn">
+							<button class="btn btn-default" type="button">
+          					 		<i class="glyphicon glyphicon-lock"></i>
+         						</button>
+						</div>
+					</div>
+					<button type="submit" class="btn btn-danger btn-md" name="loger"
+						id="login" value="login"><span id="log" class="glyphicon glyphicon-log-in"></span></button>
+				</form>
+			</div>
+		</nav>
+		<img src="img/fondo1.jpg" alt="red" width="100%"> 
+		
+	</div>
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

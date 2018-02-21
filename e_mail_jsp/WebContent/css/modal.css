@@ -1,0 +1,53 @@
+body {
+	
+}
+
+span {
+	margin-right: 5px;
+	
+	
+}
+
+#war {
+	background: yellow;
+	padding: 15px;
+}
+
+
+#errores {
+	width: 70%;
+	margin: auto;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#person {
+	width: 40%;
+}
+
+#mensajes {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+
+h2, h4, h5{
+	text-align: center;
+}
+
+
+.container{
+	width: 80%;
+	margin-top: 100px;
+}
+.jumbotron {
+	
+	width: 50%;
+	
+	text-align: center;
+	margin: auto;
+}

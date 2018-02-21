@@ -1,0 +1,54 @@
+
+span {
+	margin-right: 5px;
+	
+	
+}
+
+
+#errores {
+	width: 70%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#person {
+	width: 40%;
+}
+
+#mensajes {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+
+h2, h4, h5{
+	text-align: center;
+}
+
+
+.container{
+	width: 80%;
+	margin-top: 100px;
+}
+.jumbotron {
+	
+	width: 70%;
+	
+	text-align: center;
+	margin: auto;
+}
+
+@media only screen and (max-width: 600px)  {
+  	
+	 .jumbotron {
+	 	width: 90%;
+	 }
+	 h5 {
+	 	display: none;
+	 }
+}

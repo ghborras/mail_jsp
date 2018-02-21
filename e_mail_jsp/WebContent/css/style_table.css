@@ -1,0 +1,155 @@
+a { 
+ 	padding: 3px;
+ 	font-size: 10px;
+ } 
+
+a: link{
+	text-decoration: none;
+}
+#asunto {
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: bold;
+	color: green;
+}
+
+#boton_borrar, #boton_reenviar, #boton_refresh {
+	border-top: 0px;
+}
+
+#envi {
+	padding: 20px;
+}
+
+button, a{
+	margin-top: 10px;
+}
+span {
+	margin-right: 4px;
+}
+
+.container {
+	width: 100%;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.panel-default {
+	border-color: white;
+}
+
+.table-fixed thead,
+.table-fixed tfoot{
+  width: 100%;
+}
+
+.table-fixed tbody {
+  height: 250px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.table-fixed thead,
+.table-fixed tbody,
+.table-fixed tfoot,
+.table-fixed tr,
+.table-fixed td,
+.table-fixed th {
+  display: block;
+}
+
+.table-fixed tbody td,
+.table-fixed thead > tr> th,
+.table-fixed tfoot > tr> td{
+  float: left;
+  border-bottom-width: 10;
+}
+
+
+tbody {
+	margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1160px)  {
+  	.table-fixed thead,
+	.table-fixed tbody,
+	.table-fixed tfoot,
+	.table-fixed tr,
+	.table-fixed td,
+	.table-fixed th {
+	 font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 1000px)  {
+  	.table-fixed thead,
+	.table-fixed tbody,
+	.table-fixed tfoot,
+	.table-fixed tr,
+	.table-fixed td,
+	.table-fixed th {
+	 font-size: 12px;
+	
+	}
+}
+	
+@media only screen and (max-width: 600px)  {
+  	
+	 #thasunto, #asunto {
+	 	display:none;
+	 }
+	 #men, #man {
+	 	width: 70%;
+	 }
+}
+
+
+@media only screen and (max-width: 420px)  {
+  	.table-fixed thead,
+	.table-fixed tbody,
+	.table-fixed tfoot,
+	.table-fixed tr,
+	.table-fixed td,
+	.table-fixed th {
+	 font-size: 12px;
+	
+	}
+	#fecha, #date {
+	 	display:none;
+	 }
+	 #men, #man {
+	 	width: 75%;
+	 	 
+	 }
+	 #rec, #recb {
+	 	width: 15%;
+	 	
+	 }
+	 #ck, #ck1 {
+	 	width: 10%;
+	 	
+	 }
+	 
+}
+
+@media only screen and (max-width: 350px)  {
+	
+	.non {
+		display: none;
+	}
+	strong {
+		font-size: 14px;
+	}
+	
+	#sobre {
+		font-size: 14px;
+		
+	}
+	#boton_reenviar {
+		padding: 0px;
+		margin_bottom: 0px;
+	}
+	
+	 
+}
+

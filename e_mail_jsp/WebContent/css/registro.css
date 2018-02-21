@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+
+body {
+	background-image: url("../img/fondo2.png");
+	
+/* 	background-position: center center; */
+}
+
+
+span {
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+label {
+	color: white;
+}
+
+form {
+	width: 60%;
+	margin: auto;
+}
+
+.jumbotron {
+	width:50%;
+	margin: auto;
+	margin-top: 200px;
+	text-align: center;
+}
+
+h3 {
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+#myModal {
+	width: 100%;
+	padding: 70px;
+	
+}
+
+#war {
+	background: yellow;
+	padding: 10px;
+}
+
+.modal-dialog {
+	background: #021b39;
+	 opacity: 0.85;
+    filter: alpha(opacity=85);
+}
+
